@@ -1,0 +1,38 @@
+
+n = 43
+print()
+print("Representació binària:")
+print("El nombre n val", n)
+print("La representació binària amb prefix és", bin(n))
+print("La representació binària és", format(n, 'b'))
+print("El nombre de bits totals és", n.bit_length())
+print("El nombre de bits 1 és", n.bit_count())
+print("El desplaçament a l'esquerra és", format(n << 1, 'b'), "o sigui", n << 1)
+print("El desplaçament a la dreta és", format(n >> 1, 'b'), ", o sigui", n >> 1)
+print("x << k correspon a x*2^k: 3 << 4 =", 3 << 4)
+print("x >> k correspon a x//2^k: 31 >> 3 =", 31 >> 3)
+print("El complement (a dos) de n = 43 és ~n =", ~n)
+
+print()
+print("Operacions amb bits:")
+print("a & b és l'operació AND bit a bit de a i b")
+print("a | b és l'operació OR bit a bit de a i b")
+print("a ^ b és l'operació XOR bit a bit de a i b")
+
+print()
+print("Manipulació de bits:")
+print("La potència 2^i es pot calcular com 1 << i")
+print("x és parell si x & 1 = 0, o senar si x & 1 = 1")
+print("x és divisible per 2^k si x & (2^k - 1) = 0")
+
+print("x & (1 << k) és el k-èssim bit de x")
+print("x | (1 << k) posa el k-èssim bit a 1")
+print("x & ~ (1 << k) posa el k-èssim bit a 0")
+print("x ^ (1 << k) inverteix el k-èssim bit")
+print("x & (x-1) posa el bit 1 menys significant a 0")
+print("Si val 0, x és una potència de 2 (només té un 1)")
+print("x & -x posa tots els bits a 0 excepte el menys significant")
+print("Aquest nombre és la major potència 2^i que divideix x")
+
+print()
+print("Operacions de conjunts:")
