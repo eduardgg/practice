@@ -1,0 +1,134 @@
+# --- Global ---
+
+# Evitar fitxers temporals del sistema operatiu
+.DS_Store
+Thumbs.db
+
+# Evitar fitxers de còpies de seguretat
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Directori de l'IDE i fitxers de configuració
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Fitxers de configuració d'entorns virtuals
+.venv/
+env/
+ENV/
+venv/
+
+# Fitxers de paquets
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+
+
+# --- C++ ---
+
+# Fitxers de compilació
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.a
+*.so
+*.dll
+*.lib
+*.out
+
+# Directoris de construcció
+build/
+bin/
+Debug/
+Release/
+
+# Fitxers generats per make i CMake
+Makefile
+CMakeLists.txt.user
+CMakeCache.txt
+cmake-build-debug/
+cmake-build-release/
+
+# Fitxers de depuració i core dumps
+*.dSYM/
+*.stackdump
+*.core
+core.*
+
+
+
+# --- Python ---
+
+# Fitxers compilats en Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fitxers de rodes (wheels)
+*.whl
+
+# Fitxers de distribuïbles
+dist/
+build/
+*.egg-info/
+
+# Fitxers creats per pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Fitxers de virtualenv
+*.venv/
+.env/
+env.bak/
+
+# Fitxers de test
+.tox/
+.nox/
+
+# Fitxers de cache
+*.cache
+*.pytest_cache/
+
+
+
+# --- Java ---
+
+# Fitxers de compilació
+*.class
+*.jar
+*.war
+*.ear
+
+# Directori de sortida
+target/
+bin/
+out/
+
+# Fitxers de build
+.gradle/
+build/
+
+# Maven directories
+.mvn/
+pom.xml.asc
+
+# Fitxers creats per IDEs
+*.iml
+*.ipr
+*.iws
+*.idea/
+.project
+.classpath
+.settings/
