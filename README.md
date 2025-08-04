@@ -1,5 +1,5 @@
 
-# Practice - Programming Problems
+# Practise - Programming Problems
 
 This repository contains a collection of programming problems I have solved, focusing on advanced concepts of **algorithms** and **data structures**, with a strong emphasis on **applied mathematics** and **computational efficiency**.
 
@@ -10,7 +10,7 @@ The problems in this repository span multiple sources, including online forums, 
 - **GeeksforGeeks**: Classic problems often encountered in algorithmic problem-solving.
 - **LeetCode**: Problems focusing on algorithms and data structures.
 - **Jutge (UPC)**: A collection of problems from the University of Barcelona's online judge, used for academic purposes.
-- **CSES**: Some problems from the Code Submission Evaluation System, used for algorithmic practice and assessments.
+- **CSES**: Some problems from the Code Submission Evaluation System, used for algorithmic practise and assessments.
 
 Each problem is accompanied by a solution, with an emphasis on **elegant implementations**.
 
